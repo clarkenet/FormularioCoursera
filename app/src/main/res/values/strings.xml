@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">FormularioCoursera</string>
+    <string name="name_hint">Nombre</string>
+    <string name="tel_hint">Teléfono</string>
+    <string name="email_hint">Email</string>
+    <string name="description_hint">Descripción del Contacto</string>
+    <string name="pick_date">Fecha de Nacimiento</string>
+    <string name="detalles">Siguiente</string>
+    <string name="cntName">Name</string>
+    <string name="cntDate">Date</string>
+    <string name="cntTel">Phone</string>
+    <string name="cntEmail">Email</string>
+    <string name="cntDesc">Description</string>
+    <string name="confirm_title_txt">Confirmar Datos</string>
+    <string name="tvName">Nombre:</string>
+    <string name="tvDate">Fecha de Nacimiento:</string>
+    <string name="tvTel">Teléfono:</string>
+    <string name="tvEmail">Email:</string>
+    <string name="tvDesc">Descripción:</string>
+    <string name="btnEditar">Editar Datos</string>
 </resources>

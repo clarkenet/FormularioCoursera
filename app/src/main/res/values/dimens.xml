@@ -2,4 +2,10 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btn_detalles_top">50dp</dimen>
+    <dimen name="input_date_mleft">10dp</dimen>
+    <dimen name="confirm_title_txt_size">30sp</dimen>
+    <dimen name="marginReisedButtons">10dp</dimen>
+    <dimen name="marginBottomTV">20dp</dimen>
+    <dimen name="tv_txt_size">18sp</dimen>
 </resources>

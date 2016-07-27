@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.kenneth.android.formulariocoursera.ConfirmacionActivity">
+
+    <TextView
+        android:id="@+id/tvConfirmacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/confirm_title_txt_size"
+        android:textStyle="bold"
+        android:text="@string/confirm_title_txt"
+        android:layout_marginBottom="@dimen/marginBottomTV"/>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvName"
+        android:layout_marginBottom="@dimen/marginBottomTV"
+        android:textSize="@dimen/tv_txt_size"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDate"
+        android:layout_marginBottom="@dimen/marginBottomTV"
+        android:textSize="@dimen/tv_txt_size"/>
+
+    <TextView
+        android:id="@+id/tvTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTel"
+        android:layout_marginBottom="@dimen/marginBottomTV"
+        android:textSize="@dimen/tv_txt_size"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvEmail"
+        android:layout_marginBottom="@dimen/marginBottomTV"
+        android:textSize="@dimen/tv_txt_size"/>
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDesc"
+        android:layout_marginBottom="@dimen/marginBottomTV"
+        android:textSize="@dimen/tv_txt_size"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="@string/btnEditar"
+            android:theme="@style/RaisedButtons"/>
+
+    </LinearLayout>
+
+</LinearLayout>
